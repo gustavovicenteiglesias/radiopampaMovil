@@ -1,0 +1,6 @@
+{
+  "appId": "com.areco",
+  "appName": "radio-pampa",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
