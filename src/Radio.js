@@ -178,8 +178,8 @@ const  launchApp= ()=> {
       <Container fluid bsPrefix="container"  className="fotoradio">
            
           <div className="redes pt-2" >
-            <Button variant="link" onClick={launchApp} rel="noreferrer" target="_blank"><img alt="" src={face} height="45px" width="45px" /></Button>
-            <Button variant="link"  onClick={launchApp1} rel="noreferrer" target="_blank"><img alt="" src={instagram}  height="45px" width="45px" /></Button>
+            <div onClick={launchApp} rel="noreferrer" target="_blank"><img alt="" src={face} height="45px" width="45px" /></div>
+            <div  onClick={launchApp1} rel="noreferrer" target="_blank"><img alt="" src={instagram}  height="45px" width="45px" /></div>
           </div>
           <div className=" mx-3 ">
           <Row xs={1} sm={1} md={2} lg={3}  >
